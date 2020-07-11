@@ -1,0 +1,21 @@
+---
+title: how to write a blog
+author: Alven Yu
+date: '2020-07-11'
+slug: how-to-write-a-blog
+categories:
+  - R
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-07-11T21:07:34+10:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+Here is a test for my post.

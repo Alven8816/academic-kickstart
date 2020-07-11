@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wenhua(Alven) Yu</title>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wenhua(Alven) Yu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020</copyright><lastBuildDate>Sat, 11 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Wenhua(Alven) Yu</title>
+      <link>/</link>
+    </image>
+    
+    <item>
+      <title>how to write a blog</title>
+      <link>/post/how-to-write-a-blog/</link>
+      <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/post/how-to-write-a-blog/</guid>
+      <description>
+
+
+&lt;p&gt;Here is a test for my post.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The association between long-term exposure to low-level PM2.5 and mortality in the state of Queensland, Australia: A modelling study with the difference-in-differences approach</title>
+      <link>/publication/journal-article/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internal Project</title>
+      <link>/project/internal-project/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/project/internal-project/</guid>
+      <description>&lt;p&gt;The accurate prediction of historical PM2.5 is critical and essential in environmental health management and making air pollution control strategies.An innovative deep ensemble model (DEM) based on ensemble Super Learner (SL) was proposed to predict the daily PM2.5 concentration.An R package called 
+&lt;a href=&#34;https://github.com/Alven8816/deeper&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;deeper&lt;/a&gt; was newly built to fit the DEM approach.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Long-term exposure to PM2.5 and fasting plasma glucose in non-diabetic adolescents in Yogyakarta, Indonesia</title>
+      <link>/publication/journal-article-2/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MMCR Seed Funding, UNDERSTANDING THE IMPACTS OF ENVIRONMENTAL EXPOSURE ON EPILEPTIC SEIZURES.</title>
+      <link>/project/external-project/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <description>
+
+
+&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &amp;lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Including Plots&lt;/h1&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
+  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
+  init.angle = -50, border = NA
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A fancy pie chart.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ultrasonic dissection versus conventional electrocautery during gastrectomy for gastric cancer: a meta-analysis of randomized controlled trials</title>
+      <link>/publication/ejso/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/ejso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Cost-Effectiveness of Different Feeding Patterns Combined with Prompt Treatments for Preventing Mother-to-Child HIV Transmission in South Africa: Estimates from Simulation Modeling</title>
+      <link>/publication/plos-one/</link>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/plos-one/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An economic evaluation for prevention of diabetes mellitus in a developing country: a modelling study</title>
+      <link>/publication/bmc-health/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/bmc-health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Positive ratio of specific antibodies to F protein in serum samples from chronic HCV-infected patients using an enzyme-linked immunosorbent assay: systematic review and meta-analysis</title>
+      <link>/publication/ejgh/</link>
+      <pubDate>Tue, 01 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/ejgh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Natural Language Processing(NLP)(1)——Text segmentation(R vs. python)</title>
+      <link>/post/nlp_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/post/nlp_1/</guid>
+      <description>
+
+
+&lt;div id=&#34;自然语言处理natural-language-processing&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;自然语言处理（Natural Language Processing）&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;自然语言处理（NLP）是机器学习重要分支之一，主要应用于篇章理解、文本摘要、情感分析、知识图谱、文本翻译等领域。而NLP应用首先是对文本进行分词，当前中文分词器有Ansj、paoding、盘古分词等多种，而最基础的分词器应该属于jieba分词器。下面将分别应用R和python对jieba分词器在中文分词、词性标注和关键词提取领域的应用进行比较。&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;##一、jiaba中文分词&lt;/p&gt;
+&lt;p&gt;###R实现&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;通过函数worker()来初始化分词引擎，使用segment()进行分词。有四种分词模式:最大概率法（MP）、隐马尔科夫模型（HMM）、混合模型（Mix）及索引模型（query）,默认为混合模型。具体可查看help(worker).&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#install.packages(&amp;#39;jiebaR&amp;#39;)
+library(jiebaR)
+mixseg &amp;lt;- worker()
+segment( &amp;quot;这是一段测试文本&amp;quot; , mixseg ) 
+#或者用以下操作
+mixseg[&amp;#39;这是一段测试文本&amp;#39;]
+mixseg &amp;lt;= &amp;quot;这是一段测试文本&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;###python实现&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;python中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分词类型，默认为精确模式。&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;python&#34;&gt;&lt;code&gt;import jieba
+seg_list = jieba.cut(u&amp;quot;这是一段测试文本&amp;quot;,cut_all = False)
+print(&amp;quot;Full mode: &amp;quot;+ &amp;quot;,&amp;quot;.join(seg_list))  #默认精确模式&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;无论是R还是python都为utf—8编码。&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;##二、词性标注&lt;/p&gt;
+&lt;p&gt;###R实现&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;可以使用&amp;lt;=.tagger 或者tag 来进行分词和词性标注，词性标注使用混合模型模型分词，标注采用和 ictclas 兼容的标记法。&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;words = &amp;quot;我爱北京天安门&amp;quot;
+tagger = worker(&amp;quot;tag&amp;quot;) #开启词性标注启发器
+tagger &amp;lt;= words
+
+    #    r        v       ns       ns 
+    # &amp;quot;我&amp;quot;     &amp;quot;爱&amp;quot;   &amp;quot;北京&amp;quot; &amp;quot;天安门&amp;quot; &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;###python实现&lt;/p&gt;
+&lt;pre class=&#34;python&#34;&gt;&lt;code&gt;#词性标注
+import jieba.posseg as pseg
+words = pseg.cut(&amp;quot;我爱北京天安门&amp;quot;)
+for word,flag in words:
+    print(&amp;#39;%s, %s&amp;#39; %(word,flag))
+    
+&amp;lt;!-- 我, r --&amp;gt;
+&amp;lt;!-- 爱, v --&amp;gt;
+&amp;lt;!-- 北京, ns --&amp;gt;
+&amp;lt;!-- 天安门, ns --&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;##三、关键词提取&lt;/p&gt;
+&lt;p&gt;###R实现&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;R关键词提取使用逆向文件频率（IDF）文本语料库,通过worker参数“keywords”开启关键词提取启发器，topn参数为关键词的个数。&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;keys = worker(&amp;quot;keywords&amp;quot;,topn = 5, idf = IDFPATH)
+keys &amp;lt;= &amp;quot;会议邀请到美国密歇根大学(University of Michigan, Ann Arbor）环境健康科学系副教授奚传武博士作题为“Multibarrier approach for safe drinking waterin the US : Why it failed in Flint”的学术讲座，介绍美国密歇根Flint市饮用水污染事故的发生发展和处置等方面内容。讲座后各相关单位同志与奚传武教授就生活饮用水在线监测系统、美国水污染事件的处置方式、生活饮用水老旧管网改造、如何有效减少消毒副产物以及美国涉水产品和二次供水单位的监管模式等问题进行了探讨和交流。本次交流会是我市生活饮用水卫生管理工作洽商机制运行以来的又一次新尝试，也为我市卫生计生综合监督部门探索生活饮用水卫生安全管理模式及突发水污染事件的应对措施开拓了眼界和思路。&amp;quot;
+
+#结果：
+#        48.8677        23.4784        22.1402         20.326        18.5354 
+#       &amp;quot;饮用水&amp;quot;        &amp;quot;Flint&amp;quot;         &amp;quot;卫生&amp;quot;       &amp;quot;水污染&amp;quot;         &amp;quot;生活&amp;quot; &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;###python实现&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;python实现关键词提取可运用TF-IDF方法和TextRank方法。allowPOS参数为限定范围词性类型。&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;python&#34;&gt;&lt;code&gt;#关键词提取
+import jieba.analyse
+
+content = u&amp;#39;会议邀请到美国密歇根大学(University of Michigan, Ann Arbor）环境健康科学系副教授奚传武博士作题为“Multibarrier approach for safe drinking waterin the US : Why it failed in Flint”的学术讲座，介绍美国密歇根Flint市饮用水污染事故的发生发展和处置等方面内容。讲座后各相关单位同志与奚传武教授就生活饮用水在线监测系统、美国水污染事件的处置方式、生活饮用水老旧管网改造、如何有效减少消毒副产物以及美国涉水产品和二次供水单位的监管模式等问题进行了探讨和交流。本次交流会是我市生活饮用水卫生管理工作洽商机制运行以来的又一次新尝试，也为我市卫生计生综合监督部门探索生活饮用水卫生安全管理模式及突发水污染事件的应对措施开拓了眼界和思路。&amp;#39;
+
+#基于TF-IDF
+keywords = jieba.analyse.extract_tags(content,topK = 5,withWeight = True,allowPOS = (&amp;#39;n&amp;#39;,&amp;#39;nr&amp;#39;,&amp;#39;ns&amp;#39;))
+for item in keywords:
+    print item[0],item[1]
+   
+#基于TF-IDF结果
+# 饮用水 0.448327672795
+# Flint 0.219353532163
+# 卫生 0.203120821773
+# 水污染 0.186477211628
+# 生活 0.170049997544&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;python&#34;&gt;&lt;code&gt;#基于TextRank
+keywords = jieba.analyse.textrank(content,topK = 5,withWeight = True,allowPOS = (&amp;#39;n&amp;#39;,&amp;#39;nr&amp;#39;,&amp;#39;ns&amp;#39;))
+for item in keywords:
+    print item[0],item[1]
+    
+#基于TextRank结果：
+# 饮用水 1.0
+# 美国 0.570564785973
+# 奚传武 0.510738424509
+# 单位 0.472841889334
+# 讲座 0.443770732053&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;##写在文后&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;自然语言处理（NLP）在数据分析领域有其特殊的应用，在R中除了jiebaR包，中文分词Rwordseg包也非常常用。一般的文本挖掘步骤包括：文本获取（主要用网络爬取）——文本处理（分词、词性标注、删除停用词等）——文本分析（主题模型、情感分析）——分析可视化（词云、知识图谱等）。本文是自然语言处理的第一篇，后续将分别总结下应用深度学习Word2vec进行词嵌入以及主题模型、情感分析的常用NLP方法。&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;##参考资料&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction · jiebaR 中文分词&lt;a href=&#34;https://qinwenfeng.com/jiebaR/segment.html&#34; class=&#34;uri&#34;&gt;https://qinwenfeng.com/jiebaR/segment.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;知乎：【文本分析】利用jiebaR进行中文分词&lt;a href=&#34;https://zhuanlan.zhihu.com/p/24882048&#34; class=&#34;uri&#34;&gt;https://zhuanlan.zhihu.com/p/24882048&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;雪晴数据网：全栈数据工程师养成攻略&lt;a href=&#34;http://www.xueqing.tv/course/73&#34; class=&#34;uri&#34;&gt;http://www.xueqing.tv/course/73&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;搜狗实验室，词性标注应用&lt;a href=&#34;http://www.sogou.com/labs/webservice/&#34; class=&#34;uri&#34;&gt;http://www.sogou.com/labs/webservice/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;【R文本挖掘】中文分词Rwordseg &lt;a href=&#34;http://blog.163.com/zzz216@yeah/blog/static/162554684201412895732586/&#34; class=&#34;uri&#34;&gt;http://blog.163.com/zzz216@yeah/blog/static/162554684201412895732586/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

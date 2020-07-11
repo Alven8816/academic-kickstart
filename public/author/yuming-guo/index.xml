@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuming Guo | Wenhua(Alven) Yu</title>
+    <link>/author/yuming-guo/</link>
+      <atom:link href="/author/yuming-guo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yuming Guo</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020</copyright><lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Yuming Guo</title>
+      <link>/author/yuming-guo/</link>
+    </image>
+    
+    <item>
+      <title>The association between long-term exposure to low-level PM2.5 and mortality in the state of Queensland, Australia: A modelling study with the difference-in-differences approach</title>
+      <link>/publication/journal-article/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Long-term exposure to PM2.5 and fasting plasma glucose in non-diabetic adolescents in Yogyakarta, Indonesia</title>
+      <link>/publication/journal-article-2/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article-2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
