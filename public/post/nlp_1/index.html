@@ -72,6 +72,8 @@ python中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分�
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
 
     
 
@@ -237,9 +239,9 @@ python中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分�
   
   <meta property="twitter:card" content="summary">
   
-  <meta property="og:site_name" content="Wenhua(Alven) Yu">
+  <meta property="og:site_name" content="Wenhua Yu">
   <meta property="og:url" content="/post/nlp_1/">
-  <meta property="og:title" content="Natural Language Processing(NLP)(1)——Text segmentation(R vs. python) | Wenhua(Alven) Yu">
+  <meta property="og:title" content="Natural Language Processing(NLP)(1)——Text segmentation(R vs. python) | Wenhua Yu">
   <meta property="og:description" content="自然语言处理（Natural Language Processing）自然语言处理（NLP）是机器学习重要分支之一，主要应用于篇章理解、文本摘要、情感分析、知识图谱、文本翻译等领域。而NLP应用首先是对文本进行分词，当前中文分词器有Ansj、paoding、盘古分词等多种，而最基础的分词器应该属于jieba分词器。下面将分别应用R和python对jieba分词器在中文分词、词性标注和关键词提取领域的应用进行比较。##一、jiaba中文分词
 ###R实现
 通过函数worker()来初始化分词引擎，使用segment()进行分词。有四种分词模式:最大概率法（MP）、隐马尔科夫模型（HMM）、混合模型（Mix）及索引模型（query）,默认为混合模型。具体可查看help(worker).#install.packages(&#39;jiebaR&#39;)library(jiebaR)mixseg &lt;- worker()segment( &quot;这是一段测试文本&quot; , mixseg ) #或者用以下操作mixseg[&#39;这是一段测试文本&#39;]mixseg &lt;= &quot;这是一段测试文本&quot;###python实现
@@ -285,7 +287,7 @@ python中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分�
   
   "publisher": {
     "@type": "Organization",
-    "name": "Wenhua(Alven) Yu",
+    "name": "Wenhua Yu",
     "logo": {
       "@type": "ImageObject",
       "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
@@ -309,7 +311,7 @@ python中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分�
 
 
 
-  <title>Natural Language Processing(NLP)(1)——Text segmentation(R vs. python) | Wenhua(Alven) Yu</title>
+  <title>Natural Language Processing(NLP)(1)——Text segmentation(R vs. python) | Wenhua Yu</title>
 
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
@@ -361,7 +363,7 @@ python中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分�
 
     
     <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">Wenhua(Alven) Yu</a>
+      <a class="navbar-brand" href="/">Wenhua Yu</a>
     </div>
     
 
@@ -374,7 +376,7 @@ python中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分�
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">Wenhua(Alven) Yu</a>
+      <a class="navbar-brand" href="/">Wenhua Yu</a>
     </div>
     
 
@@ -611,7 +613,7 @@ python中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分�
     
       
     
-    Jun 1, 1010
+    Jan 1, 0001
   </span>
   
 
@@ -1018,6 +1020,8 @@ for item in keywords:
 
     
     
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
 
     
     
@@ -1109,9 +1113,19 @@ for item in keywords:
   <div class="container">
     <footer class="site-footer">
   
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+       &middot; 
+      <a href="/terms/">Terms</a>
+    
+  </p>
+  
 
   <p class="powered-by">
-    ©2020
+    
   </p>
 
   
