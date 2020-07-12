@@ -216,7 +216,7 @@
   
 
   
-  <link rel="alternate" href="/post/index.xml" type="application/rss+xml" title="Wenhua Yu">
+  <link rel="alternate" href="/post/index.xml" type="application/rss+xml" title="Wenhua(Alven) Yu">
   
 
   <link rel="manifest" href="/index.webmanifest">
@@ -238,13 +238,13 @@
   
   <meta property="twitter:card" content="summary">
   
-  <meta property="og:site_name" content="Wenhua Yu">
+  <meta property="og:site_name" content="Wenhua(Alven) Yu">
   <meta property="og:url" content="/post/">
-  <meta property="og:title" content="Posts | Wenhua Yu">
+  <meta property="og:title" content="Posts | Wenhua(Alven) Yu">
   <meta property="og:description" content="Research Assistant"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2020-07-11T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2017-08-21T00:00:00&#43;00:00">
   
 
   
@@ -261,7 +261,7 @@
 
 
 
-  <title>Posts | Wenhua Yu</title>
+  <title>Posts | Wenhua(Alven) Yu</title>
 
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
@@ -313,7 +313,7 @@
 
     
     <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">Wenhua Yu</a>
+      <a class="navbar-brand" href="/">Wenhua(Alven) Yu</a>
     </div>
     
 
@@ -326,7 +326,7 @@
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">Wenhua Yu</a>
+      <a class="navbar-brand" href="/">Wenhua(Alven) Yu</a>
     </div>
     
 
@@ -580,13 +580,13 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
-      <a href="/post/how-to-write-a-blog/" >how to write a blog</a>
+      <a href="/post/deep-learning-neural-network-free-resource-%E4%B8%AD%E6%96%87/" >Deep Learning &amp; Neural Network free resource(中文)</a>
     </h3>
 
     
-    <a href="/post/how-to-write-a-blog/" class="summary-link">
+    <a href="/post/deep-learning-neural-network-free-resource-%E4%B8%AD%E6%96%87/" class="summary-link">
       <div class="article-style">
-        Here is a test for my post.
+        Mang resources about deep learning.
       </div>
     </a>
     
@@ -612,7 +612,7 @@
           Last updated on
       
     
-    Jul 11, 2020
+    Jul 12, 2020
   </span>
   
 
@@ -633,98 +633,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/r/">R</a></span>
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/post/2015-07-23-r-rmarkdown/" >Hello R Markdown</a>
-    </h3>
-
-    
-    <a href="/post/2015-07-23-r-rmarkdown/" class="summary-link">
-      <div class="article-style">
-        R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Jul 23, 2015
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    1 min read
-  </span>
-  
-
-  
-  
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/r/">R</a></span>
+    <i class="fas fa-folder mr-1"></i><a href="/category/deep-learning/">Deep learning</a></span>
   
 
 </div>
@@ -770,10 +679,8 @@
     
     <a href="/post/nlp_1/" class="summary-link">
       <div class="article-style">
-        自然语言处理（Natural Language Processing）自然语言处理（NLP）是机器学习重要分支之一，主要应用于篇章理解、文本摘要、情感分析、知识图谱、文本翻译等领域。而NLP应用首先是对文本进行分词，当前中文分词器有Ansj、paoding、盘古分词等多种，而最基础的分词器应该属于jieba分词器。下面将分别应用R和python对jieba分词器在中文分词、词性标注和关键词提取领域的应用进行比较。##一、jiaba中文分词
-###R实现
-通过函数worker()来初始化分词引擎，使用segment()进行分词。有四种分词模式:最大概率法（MP）、隐马尔科夫模型（HMM）、混合模型（Mix）及索引模型（query）,默认为混合模型。具体可查看help(worker).#install.packages(&#39;jiebaR&#39;)library(jiebaR)mixseg &lt;- worker()segment( &quot;这是一段测试文本&quot; , mixseg ) #或者用以下操作mixseg[&#39;这是一段测试文本&#39;]mixseg &lt;= &quot;这是一段测试文本&quot;###python实现
-python中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分词类型，默认为精确模式。import jiebaseg_list = jieba.cut(u&quot;这是一段测试文本&quot;,cut_all = False)print(&quot;Full mode: &quot;+ &quot;,&quot;.
+        自然语言处理（Natural Language Processing）自然语言处理（NLP）是机器学习重要分支之一，主要应用于篇章理解、文本摘要、情感分析、知识图谱、文本翻译等领域。而NLP应用首先是对文本进行分词，当前中文分词器有Ansj、paoding、盘古分词等多种，而最基础的分词器应该属于jieba分词器。下面将分别应用R和python对jieba分词器在中文分词、词性标注和关键词提取领域的应用进行比较。
+一、jiaba中文分词R实现通过函数worker()来初始化分词引擎，使用segment()进行分词。有四种分词模式:最大概率法（MP）、隐马尔科夫模型（HMM）、混合模型（Mix）及索引模型（query）,默认为混合模型。具体可查看help(worker).#install.packages(&#39;jiebaR&#39;)library(jiebaR)mixseg &lt;- worker()segment( &quot;这是一段测试文本&quot; , mixseg ) #或者用以下操作mixseg[&#39;这是一段测试文本&#39;]mixseg &lt;= &quot;这是一段测试文本&quot;python实现python中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分词类型，默认为精确模式。import jiebaseg_list = jieba.
       </div>
     </a>
     
@@ -968,7 +875,7 @@ python中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分�
   
 
   <p class="powered-by">
-    
+    © 2020
   </p>
 
   

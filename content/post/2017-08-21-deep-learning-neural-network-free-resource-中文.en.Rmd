@@ -1,0 +1,21 @@
+---
+title: Deep Learning & Neural Network free resource(中文)
+author: Alven Yu
+date: '2017-08-21'
+slug: deep-learning-neural-network-free-resource-中文
+categories:
+  - Deep learning
+tags:
+  - deep learning
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-07-12T19:50:20+10:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+[Mang resources](https://ask.hellobi.com/blog/datasharing/9458) about deep learning.

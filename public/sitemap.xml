@@ -3,31 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-07-11T21:07:34+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/how-to-write-a-blog/</loc>
-    <lastmod>2020-07-11T21:07:34+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-07-11T21:07:34+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/r/</loc>
-    <lastmod>2020-07-11T21:07:34+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-07-11T21:07:34+10:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication-type/2/</loc>
     <lastmod>2020-06-18T00:00:00+00:00</lastmod>
   </url>
@@ -69,7 +44,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-12T19:50:20+10:00</lastmod>
   </url>
   
   <url>
@@ -80,6 +55,11 @@
   <url>
     <loc>/author/wenhua-yu/</loc>
     <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-07-12T19:50:20+10:00</lastmod>
   </url>
   
   <url>
@@ -183,23 +163,28 @@
   </url>
   
   <url>
-    <loc>/post/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2020-07-12T19:50:20+10:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/category/deep-learning/</loc>
+    <lastmod>2020-07-12T19:50:20+10:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/tag/deep-learning/</loc>
+    <lastmod>2020-07-12T19:50:20+10:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/regression/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/post/deep-learning-neural-network-free-resource-%E4%B8%AD%E6%96%87/</loc>
+    <lastmod>2020-07-12T19:50:20+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-07-12T19:50:20+10:00</lastmod>
   </url>
   
   <url>

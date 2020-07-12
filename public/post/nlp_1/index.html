@@ -27,10 +27,8 @@
   
     
   
-  <meta name="description" content="自然语言处理（Natural Language Processing）自然语言处理（NLP）是机器学习重要分支之一，主要应用于篇章理解、文本摘要、情感分析、知识图谱、文本翻译等领域。而NLP应用首先是对文本进行分词，当前中文分词器有Ansj、paoding、盘古分词等多种，而最基础的分词器应该属于jieba分词器。下面将分别应用R和python对jieba分词器在中文分词、词性标注和关键词提取领域的应用进行比较。##一、jiaba中文分词
-###R实现
-通过函数worker()来初始化分词引擎，使用segment()进行分词。有四种分词模式:最大概率法（MP）、隐马尔科夫模型（HMM）、混合模型（Mix）及索引模型（query）,默认为混合模型。具体可查看help(worker).#install.packages(&#39;jiebaR&#39;)library(jiebaR)mixseg &lt;- worker()segment( &quot;这是一段测试文本&quot; , mixseg ) #或者用以下操作mixseg[&#39;这是一段测试文本&#39;]mixseg &lt;= &quot;这是一段测试文本&quot;###python实现
-python中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分词类型，默认为精确模式。import jiebaseg_list = jieba.cut(u&quot;这是一段测试文本&quot;,cut_all = False)print(&quot;Full mode: &quot;&#43; &quot;,&quot;.">
+  <meta name="description" content="自然语言处理（Natural Language Processing）自然语言处理（NLP）是机器学习重要分支之一，主要应用于篇章理解、文本摘要、情感分析、知识图谱、文本翻译等领域。而NLP应用首先是对文本进行分词，当前中文分词器有Ansj、paoding、盘古分词等多种，而最基础的分词器应该属于jieba分词器。下面将分别应用R和python对jieba分词器在中文分词、词性标注和关键词提取领域的应用进行比较。
+一、jiaba中文分词R实现通过函数worker()来初始化分词引擎，使用segment()进行分词。有四种分词模式:最大概率法（MP）、隐马尔科夫模型（HMM）、混合模型（Mix）及索引模型（query）,默认为混合模型。具体可查看help(worker).#install.packages(&#39;jiebaR&#39;)library(jiebaR)mixseg &lt;- worker()segment( &quot;这是一段测试文本&quot; , mixseg ) #或者用以下操作mixseg[&#39;这是一段测试文本&#39;]mixseg &lt;= &quot;这是一段测试文本&quot;python实现python中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分词类型，默认为精确模式。import jiebaseg_list = jieba.">
 
   
   <link rel="alternate" hreflang="en-us" href="/post/nlp_1/">
@@ -239,13 +237,11 @@ python中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分�
   
   <meta property="twitter:card" content="summary">
   
-  <meta property="og:site_name" content="Wenhua Yu">
+  <meta property="og:site_name" content="Wenhua(Alven) Yu">
   <meta property="og:url" content="/post/nlp_1/">
-  <meta property="og:title" content="Natural Language Processing(NLP)(1)——Text segmentation(R vs. python) | Wenhua Yu">
-  <meta property="og:description" content="自然语言处理（Natural Language Processing）自然语言处理（NLP）是机器学习重要分支之一，主要应用于篇章理解、文本摘要、情感分析、知识图谱、文本翻译等领域。而NLP应用首先是对文本进行分词，当前中文分词器有Ansj、paoding、盘古分词等多种，而最基础的分词器应该属于jieba分词器。下面将分别应用R和python对jieba分词器在中文分词、词性标注和关键词提取领域的应用进行比较。##一、jiaba中文分词
-###R实现
-通过函数worker()来初始化分词引擎，使用segment()进行分词。有四种分词模式:最大概率法（MP）、隐马尔科夫模型（HMM）、混合模型（Mix）及索引模型（query）,默认为混合模型。具体可查看help(worker).#install.packages(&#39;jiebaR&#39;)library(jiebaR)mixseg &lt;- worker()segment( &quot;这是一段测试文本&quot; , mixseg ) #或者用以下操作mixseg[&#39;这是一段测试文本&#39;]mixseg &lt;= &quot;这是一段测试文本&quot;###python实现
-python中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分词类型，默认为精确模式。import jiebaseg_list = jieba.cut(u&quot;这是一段测试文本&quot;,cut_all = False)print(&quot;Full mode: &quot;&#43; &quot;,&quot;."><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:title" content="Natural Language Processing(NLP)(1)——Text segmentation(R vs. python) | Wenhua(Alven) Yu">
+  <meta property="og:description" content="自然语言处理（Natural Language Processing）自然语言处理（NLP）是机器学习重要分支之一，主要应用于篇章理解、文本摘要、情感分析、知识图谱、文本翻译等领域。而NLP应用首先是对文本进行分词，当前中文分词器有Ansj、paoding、盘古分词等多种，而最基础的分词器应该属于jieba分词器。下面将分别应用R和python对jieba分词器在中文分词、词性标注和关键词提取领域的应用进行比较。
+一、jiaba中文分词R实现通过函数worker()来初始化分词引擎，使用segment()进行分词。有四种分词模式:最大概率法（MP）、隐马尔科夫模型（HMM）、混合模型（Mix）及索引模型（query）,默认为混合模型。具体可查看help(worker).#install.packages(&#39;jiebaR&#39;)library(jiebaR)mixseg &lt;- worker()segment( &quot;这是一段测试文本&quot; , mixseg ) #或者用以下操作mixseg[&#39;这是一段测试文本&#39;]mixseg &lt;= &quot;这是一段测试文本&quot;python实现python中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分词类型，默认为精确模式。import jiebaseg_list = jieba."><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
@@ -287,13 +283,13 @@ python中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分�
   
   "publisher": {
     "@type": "Organization",
-    "name": "Wenhua Yu",
+    "name": "Wenhua(Alven) Yu",
     "logo": {
       "@type": "ImageObject",
       "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "自然语言处理（Natural Language Processing）\r自然语言处理（NLP）是机器学习重要分支之一，主要应用于篇章理解、文本摘要、情感分析、知识图谱、文本翻译等领域。而NLP应用首先是对文本进行分词，当前中文分词器有Ansj、paoding、盘古分词等多种，而最基础的分词器应该属于jieba分词器。下面将分别应用R和python对jieba分词器在中文分词、词性标注和关键词提取领域的应用进行比较。\r##一、jiaba中文分词\n###R实现\n通过函数worker()来初始化分词引擎，使用segment()进行分词。有四种分词模式:最大概率法（MP）、隐马尔科夫模型（HMM）、混合模型（Mix）及索引模型（query）,默认为混合模型。具体可查看help(worker).\r#install.packages(\u0026#39;jiebaR\u0026#39;)\rlibrary(jiebaR)\rmixseg \u0026lt;- worker()\rsegment( \u0026quot;这是一段测试文本\u0026quot; , mixseg ) #或者用以下操作\rmixseg[\u0026#39;这是一段测试文本\u0026#39;]\rmixseg \u0026lt;= \u0026quot;这是一段测试文本\u0026quot;\r###python实现\npython中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分词类型，默认为精确模式。\rimport jieba\rseg_list = jieba.cut(u\u0026quot;这是一段测试文本\u0026quot;,cut_all = False)\rprint(\u0026quot;Full mode: \u0026quot;+ \u0026quot;,\u0026quot;."
+  "description": "自然语言处理（Natural Language Processing）\r自然语言处理（NLP）是机器学习重要分支之一，主要应用于篇章理解、文本摘要、情感分析、知识图谱、文本翻译等领域。而NLP应用首先是对文本进行分词，当前中文分词器有Ansj、paoding、盘古分词等多种，而最基础的分词器应该属于jieba分词器。下面将分别应用R和python对jieba分词器在中文分词、词性标注和关键词提取领域的应用进行比较。\n\r一、jiaba中文分词\rR实现\r通过函数worker()来初始化分词引擎，使用segment()进行分词。有四种分词模式:最大概率法（MP）、隐马尔科夫模型（HMM）、混合模型（Mix）及索引模型（query）,默认为混合模型。具体可查看help(worker).\r#install.packages(\u0026#39;jiebaR\u0026#39;)\rlibrary(jiebaR)\rmixseg \u0026lt;- worker()\rsegment( \u0026quot;这是一段测试文本\u0026quot; , mixseg ) #或者用以下操作\rmixseg[\u0026#39;这是一段测试文本\u0026#39;]\rmixseg \u0026lt;= \u0026quot;这是一段测试文本\u0026quot;\r\rpython实现\rpython中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分词类型，默认为精确模式。\rimport jieba\rseg_list = jieba."
 }
 </script>
 
@@ -311,7 +307,7 @@ python中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分�
 
 
 
-  <title>Natural Language Processing(NLP)(1)——Text segmentation(R vs. python) | Wenhua Yu</title>
+  <title>Natural Language Processing(NLP)(1)——Text segmentation(R vs. python) | Wenhua(Alven) Yu</title>
 
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
@@ -363,7 +359,7 @@ python中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分�
 
     
     <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">Wenhua Yu</a>
+      <a class="navbar-brand" href="/">Wenhua(Alven) Yu</a>
     </div>
     
 
@@ -376,7 +372,7 @@ python中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分�
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">Wenhua Yu</a>
+      <a class="navbar-brand" href="/">Wenhua(Alven) Yu</a>
     </div>
     
 
@@ -663,9 +659,12 @@ python中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分�
 
 <div id="自然语言处理natural-language-processing" class="section level2">
 <h2>自然语言处理（Natural Language Processing）</h2>
-<pre><code>自然语言处理（NLP）是机器学习重要分支之一，主要应用于篇章理解、文本摘要、情感分析、知识图谱、文本翻译等领域。而NLP应用首先是对文本进行分词，当前中文分词器有Ansj、paoding、盘古分词等多种，而最基础的分词器应该属于jieba分词器。下面将分别应用R和python对jieba分词器在中文分词、词性标注和关键词提取领域的应用进行比较。</code></pre>
-<p>##一、jiaba中文分词</p>
-<p>###R实现</p>
+<p>自然语言处理（NLP）是机器学习重要分支之一，主要应用于篇章理解、文本摘要、情感分析、知识图谱、文本翻译等领域。而NLP应用首先是对文本进行分词，当前中文分词器有Ansj、paoding、盘古分词等多种，而最基础的分词器应该属于jieba分词器。下面将分别应用R和python对jieba分词器在中文分词、词性标注和关键词提取领域的应用进行比较。</p>
+</div>
+<div id="一jiaba中文分词" class="section level2">
+<h2>一、jiaba中文分词</h2>
+<div id="r实现" class="section level3">
+<h3>R实现</h3>
 <pre><code>通过函数worker()来初始化分词引擎，使用segment()进行分词。有四种分词模式:最大概率法（MP）、隐马尔科夫模型（HMM）、混合模型（Mix）及索引模型（query）,默认为混合模型。具体可查看help(worker).</code></pre>
 <pre class="r"><code>#install.packages(&#39;jiebaR&#39;)
 library(jiebaR)
@@ -674,14 +673,20 @@ segment( &quot;这是一段测试文本&quot; , mixseg )
 #或者用以下操作
 mixseg[&#39;这是一段测试文本&#39;]
 mixseg &lt;= &quot;这是一段测试文本&quot;</code></pre>
-<p>###python实现</p>
+</div>
+<div id="python实现" class="section level3">
+<h3>python实现</h3>
 <pre><code>python中需安装jieba库，运用jieba.cut实现分词。cut_all参数为分词类型，默认为精确模式。</code></pre>
 <pre class="python"><code>import jieba
 seg_list = jieba.cut(u&quot;这是一段测试文本&quot;,cut_all = False)
 print(&quot;Full mode: &quot;+ &quot;,&quot;.join(seg_list))  #默认精确模式</code></pre>
 <pre><code>无论是R还是python都为utf—8编码。</code></pre>
-<p>##二、词性标注</p>
-<p>###R实现</p>
+</div>
+</div>
+<div id="二词性标注" class="section level2">
+<h2>二、词性标注</h2>
+<div id="r实现-1" class="section level3">
+<h3>R实现</h3>
 <pre><code>可以使用&lt;=.tagger 或者tag 来进行分词和词性标注，词性标注使用混合模型模型分词，标注采用和 ictclas 兼容的标记法。</code></pre>
 <pre class="r"><code>words = &quot;我爱北京天安门&quot;
 tagger = worker(&quot;tag&quot;) #开启词性标注启发器
@@ -689,7 +694,9 @@ tagger &lt;= words
 
     #    r        v       ns       ns 
     # &quot;我&quot;     &quot;爱&quot;   &quot;北京&quot; &quot;天安门&quot; </code></pre>
-<p>###python实现</p>
+</div>
+<div id="python实现-1" class="section level3">
+<h3>python实现</h3>
 <pre class="python"><code>#词性标注
 import jieba.posseg as pseg
 words = pseg.cut(&quot;我爱北京天安门&quot;)
@@ -700,8 +707,12 @@ for word,flag in words:
 &lt;!-- 爱, v --&gt;
 &lt;!-- 北京, ns --&gt;
 &lt;!-- 天安门, ns --&gt;</code></pre>
-<p>##三、关键词提取</p>
-<p>###R实现</p>
+</div>
+</div>
+<div id="三关键词提取" class="section level2">
+<h2>三、关键词提取</h2>
+<div id="r实现-2" class="section level3">
+<h3>R实现</h3>
 <pre><code>R关键词提取使用逆向文件频率（IDF）文本语料库,通过worker参数“keywords”开启关键词提取启发器，topn参数为关键词的个数。</code></pre>
 <pre class="r"><code>keys = worker(&quot;keywords&quot;,topn = 5, idf = IDFPATH)
 keys &lt;= &quot;会议邀请到美国密歇根大学(University of Michigan, Ann Arbor）环境健康科学系副教授奚传武博士作题为“Multibarrier approach for safe drinking waterin the US : Why it failed in Flint”的学术讲座，介绍美国密歇根Flint市饮用水污染事故的发生发展和处置等方面内容。讲座后各相关单位同志与奚传武教授就生活饮用水在线监测系统、美国水污染事件的处置方式、生活饮用水老旧管网改造、如何有效减少消毒副产物以及美国涉水产品和二次供水单位的监管模式等问题进行了探讨和交流。本次交流会是我市生活饮用水卫生管理工作洽商机制运行以来的又一次新尝试，也为我市卫生计生综合监督部门探索生活饮用水卫生安全管理模式及突发水污染事件的应对措施开拓了眼界和思路。&quot;
@@ -709,7 +720,9 @@ keys &lt;= &quot;会议邀请到美国密歇根大学(University of Michigan, An
 #结果：
 #        48.8677        23.4784        22.1402         20.326        18.5354 
 #       &quot;饮用水&quot;        &quot;Flint&quot;         &quot;卫生&quot;       &quot;水污染&quot;         &quot;生活&quot; </code></pre>
-<p>###python实现</p>
+</div>
+<div id="python实现-2" class="section level3">
+<h3>python实现</h3>
 <pre><code>python实现关键词提取可运用TF-IDF方法和TextRank方法。allowPOS参数为限定范围词性类型。</code></pre>
 <pre class="python"><code>#关键词提取
 import jieba.analyse
@@ -738,9 +751,14 @@ for item in keywords:
 # 奚传武 0.510738424509
 # 单位 0.472841889334
 # 讲座 0.443770732053</code></pre>
-<p>##写在文后</p>
+</div>
+</div>
+<div id="写在文后" class="section level2">
+<h2>写在文后</h2>
 <pre><code>自然语言处理（NLP）在数据分析领域有其特殊的应用，在R中除了jiebaR包，中文分词Rwordseg包也非常常用。一般的文本挖掘步骤包括：文本获取（主要用网络爬取）——文本处理（分词、词性标注、删除停用词等）——文本分析（主题模型、情感分析）——分析可视化（词云、知识图谱等）。本文是自然语言处理的第一篇，后续将分别总结下应用深度学习Word2vec进行词嵌入以及主题模型、情感分析的常用NLP方法。</code></pre>
-<p>##参考资料</p>
+</div>
+<div id="参考资料" class="section level2">
+<h2>参考资料</h2>
 <blockquote>
 <ul>
 <li>Introduction · jiebaR 中文分词<a href="https://qinwenfeng.com/jiebaR/segment.html" class="uri">https://qinwenfeng.com/jiebaR/segment.html</a></li>
@@ -1125,7 +1143,7 @@ for item in keywords:
   
 
   <p class="powered-by">
-    
+    © 2020
   </p>
 
   
