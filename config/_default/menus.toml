@@ -34,7 +34,10 @@
     url = "https://ask.hellobi.com/blog/datasharing"
     weight = 70
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[main]]
