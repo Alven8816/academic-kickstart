@@ -29,6 +29,12 @@
   url = "#archive"
   weight = 50
 
+[[main]]
+    name = "中文分享"
+    url = "https://ask.hellobi.com/blog/datasharing"
+    weight = 70
+
+
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[main]]

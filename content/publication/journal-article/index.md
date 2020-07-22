@@ -38,8 +38,8 @@ featured: true
 # - name: ""
 #   url: ""
 url_pdf: https://journals.plos.org/plosmedicine/article/file?id=10.1371/journal.pmed.1003141&type=printable
-url_code: ''
-url_dataset: ''
+url_code: 'https://github.com/Alven8816/academic-kickstart/tree/master/content/publication/journal-article/DID-code'
+url_dataset: 'https://github.com/Alven8816/academic-kickstart/tree/master/content/publication/journal-article/DID-code'
 url_poster: ''
 url_project: ''
 url_slides: ''
