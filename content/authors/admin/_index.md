@@ -43,4 +43,4 @@ user_groups:
 - Researchers
 ---
 
-Hello, everyone, I'm Alven Yu, a data analyst in the environmental health field. Now I'm working as a research assistant at Monash University, Melbourne, AU. My research interests include machine learning, modeling simulation, and Health assessment under the background of global warming and climate change. I'm also an R language enthusiast, keen on rmarkdown with everyting. I believe that which does not kill us makes us stronger.
+Hello, everyone, I'm Alven Yu, a data analyst in the environmental health field. Now I'm studying as a PhD student at Monash University, Melbourne, AU. My research interests include machine learning, modeling simulation, and Health assessment under the background of global warming and climate change. I'm also an R language enthusiast, keen on rmarkdown with everyting. I believe that which does not kill us makes us stronger.
