@@ -23,7 +23,7 @@ interests:
 organizations:
 - name: Monash University
   url: ""
-role: Research Assistant
+role: PhD Candidate
 social:
 - icon: envelope
   icon_pack: fas
